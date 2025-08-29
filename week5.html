@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Practice Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Playground 🎮</h1>
+  
+  <!-- Part 1: Variables & Conditionals -->
+  <p id="greeting"></p>
+  
+  <!-- Part 2: Functions -->
+  <h2>Function Demo</h2>
+  <input type="number" id="num1" placeholder="Enter first number">
+  <input type="number" id="num2" placeholder="Enter second number">
+  <button onclick="showTotal()">Calculate Total</button>
+  <p id="totalResult"></p>
+
+  <!-- Part 3: Loops -->
+  <h2>Loop Demo</h2>
+  <button onclick="countdown(5)">Start Countdown</button>
+  <ul id="countdownList"></ul>
+
+  <!-- Part 4: DOM Manipulation -->
+  <h2>DOM Magic ✨</h2>
+  <button id="toggleBtn">Toggle Surprise</button>
+  <p id="surprise" style="display:none;">🎉 You found the hidden message!</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
+style.css (optional, just to make it pretty)
+css
+Copy code
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+button {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
